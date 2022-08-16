@@ -1,7 +1,7 @@
 # HuiHuibaby
-first project - 육아용품 중고거래 사이트. 
-jsp Servlet 기반의 프로젝트.
-DBMS  Oracle.
+- first project - 육아용품 중고거래 사이트. 
+- jsp Servlet 기반의 프로젝트.
+- DBMS  Oracle.
 
 # 개인구현 내용
 - 상품 등록, 수정, 삭제, 댓글 작성 기능.
