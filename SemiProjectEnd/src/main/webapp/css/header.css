@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{ 
+		margin : 0px auto;
+		padding : 0px;
+		list-style : none;
+		color : #000000;
+		font-size : 20px;
+	}
+	
+	header div {
+		width : 1400px;
+	}
+	
+	a{
+		
+		text-decoration : none;
+	}
+	
+	nav {
+		width : 1000px;
+	}
+	
+	.menu>li{
+		float : left;
+		width : 250px;
+		height : 40px;
+		margin-top : 50px;
+		background-color : #70a0cf;
+	}
+	
+	.menu>li>a{
+		line-height : 40px;
+		text-align : center;
+		font-weight : bold;
+		color : #ffffff;
+	}
+	
+	.menu>li:hover>a{
+		background-color : #84acd3;
+	}
+	
+	.sub{
+		display : none;
+	}
+	
+	.sub>li {
+		width : 250px;
+		height : 40px;
+		background-color : #d7eafd;
+	}
+	
+	.sub>li>a{
+		line-height : 40px;
+		font-size : 18px;
+		text-align : center;
+		color : #70a0cf;
+	}
+	
+	.sub>li:hover>a{
+		text-decolation : underline;
+	}
+	
+	#mainLogo{
+		width : 200px;
+		height : 150px;
+		float : left;
+	}
+	
+	.login{
+		float : right;
+		padding-right : 10px; 
+	}
+	
+	.mypage{
+		float : right;
+	}

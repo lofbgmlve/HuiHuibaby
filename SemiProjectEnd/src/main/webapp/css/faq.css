@@ -1,0 +1,251 @@
+@CHARSET "UTF-8";
+/* 페이지 초기화 */
+* {
+   margin-top: 100;
+   margin: 0;
+   padding: 0;
+   vertical-align: middle;
+}
+
+/*  게시판 전체 적용 */
+table {
+   margin-top: 100px;
+   margin: 50px auto;
+   padding: 0 0;   
+   border-collapse: collapse;
+   line-height: 160%;
+   font-size: 0.75em;
+   /* border: 1px dotted #787878; */
+}
+
+tr, td { padding: 0 0; }
+.readTable { width: 760px; }
+.listTable { width: 760px; }
+.contentTable { width: 760px; }
+.boardTitle{
+   height: 60px;
+   line-height: 60px;   
+   text-align: center;
+   /* border-bottom: 1px dotted #787878; */
+}
+
+/*  게시 글 리스트 */
+.listTable h2{
+   margin-top: 50px;
+   margin-bottom: 15px;
+}
+
+.faqFaq_title{
+   margin-top: 30px;
+   margin-bottom: 15px;
+}
+
+.searchForm input{
+   height: 30px;
+   border: 1px solid #999999;
+   margin-top: auto;
+   margin-inline: 2px;
+}
+
+.searchForm select{
+   font-size: 15px;
+   height: 30px;
+}
+
+.listWrite { 
+   margin-top: 150px;
+   text-align: right; 
+   padding-right: 15px;   
+   border-bottom: 1px dotted #787878; 
+}
+
+.listWrite a{
+   font-size: 15px;
+   margin-bottom: 5px;
+}
+
+.listThFaq_title { 
+   margin-top: 150px;
+   width: 400px;     
+   padding: 3px;
+   border: 1px solid #787878;  
+   background: #EAEAEA; 
+}
+
+.listThMg_id { 
+   padding: 3px;
+   width: 110px;     
+   border: 1px solid #787878; 
+   background: #EAEAEA; 
+}
+
+.listTdSpan { 
+   height: 30px; 
+   text-align: center; 
+   font-size: 12px; 
+}
+
+.listTdFaq_title a, .listTdMg_id {   
+   padding: 5px 10px 5px 10px;     
+   border: 1px solid #AAAAAA; 
+}
+
+.listTdFaq_no, .listTdMg_id {
+   text-align: center;        
+   border: 1px solid #AAAAAA; 
+}
+table .listTr:hover {
+   background-color: #FFEEEE;
+}
+#searchForm {
+   text-align: center;
+}
+.listPage { 
+   height: 30px;
+   text-align: center;    
+}
+
+.listPage a {
+   display : inline;
+}
+
+/* 게시 글 상세보기 */
+.contentTh, .contentTd, .contentTdSpan {
+   border: 1px solid #787878;
+}
+.contentTh { 
+   width: 120px;
+   height: 30px;   
+   text-align: center;
+   background-color: #EAEAEA;   
+}
+.contentTd {
+   width: 250px;
+   padding-left: 10px;
+}
+.contentTdSpan {
+   width: 640px;
+   padding-left: 10px;
+}
+.readFaq_content {   
+   /* height: 300px; */
+   padding: 20px;
+   border: 1px solid #787878;
+   vertical-align: top;
+   /* overflow: scroll; */
+   
+   /* 셀 내용을 자동 줄 바꿈 하기 */
+   word-break: break-all;
+}
+.readFaq_content > pre { font-size: 12px; }
+.tdSpan {
+   height: 40px;
+   line-height: 40px;
+   text-align: center; 
+}
+
+#recommend {
+   float: right;
+   width: 258px;   
+   text-decoration: none;   
+}
+.recommend {
+   font-weight: bold;
+   color: #777777;
+}
+
+/* 글쓰기 폼 */
+.faqFaq_title h2{
+   margin-top: 50px;
+   padding: 3px;
+}
+
+.readTh, .readTd {
+   height: 30px;
+   border: 1px solid #AAAAAA;
+   padding: 5px;
+   width: 600px;
+}
+.readTh {
+   width: 120px;
+   text-align: center;
+   line-height: 30px;
+   font-size: 15px;
+}
+
+.readTd input{
+   width: 600px;
+}
+
+.readTd placeholder{
+   font-size: 15px;
+}
+
+.readTd {
+   padding-left: 10px;
+}
+
+textarea { height: 30px; border: 1px solid #999999; font-size: 12px; }
+
+input {   padding: 3px;   border: 1px solid #999999; font-size: 15px;}
+
+/* 검색 결과 페이지 */
+#searchComment {
+   text-align: center;
+   height: 30px;
+}
+.faqListLink {
+   text-indent: 10px;
+}
+
+
+
+
+
+
+.faq_write{
+   border-top: 2px solid #000;
+   
+}
+
+.faq_write .title, .faq_write .info{
+   padding: 15px;
+}
+
+.faq_write .info{
+   border-top: 1px dashed #ddd;
+   border-bottom: 1px solid #000;
+   font-size: 0;
+}
+
+.faq_write .title dl{
+   font-size: 0;
+}
+
+.faq_write .title dt, .faq_write .title dd, .faq_write .info dt, .faq_write .info dd{
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 1.4rem;   
+} 
+
+.faq_write .title dt, .faq_write .info dt{
+   width: 100px;
+}
+
+.faq_write .title dd, .faq_write .info dd{
+   width: calc(100% - 100px);
+}
+
+.faq_write .content{
+   border-bottom: 1px solid #000;
+}
+
+.faq_write .content textarea{
+   display: block;
+   width: 100%;
+   height: 300px;
+   padding: 15px;
+   box-sizing: border-box;
+   border: 0;
+   resize: vertical;
+}

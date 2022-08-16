@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+ul.product1 {
+   list-style: none;
+   border: 1px solid black;
+   padding-top: 5px;
+   padding-left: 20px;
+   padding-bottom: 5px;
+   width: 200px;
+   height : 500px;
+   float: left;
+   margin-right: 30px;
+   border-radius: 5px;
+   font-size: 12px;
+   margin: 10px;
+}
+
+div.pageNav {
+   clear: both;
+   text-align: center;
+   margin-top: 20px;
+}
+
+#Detailbody, #updatebody, #writebody {
+   width: 1000px;
+   margin: 1px auto;
+}
+
+#pdetail {
+   text-align: center;
+}
+
+#ApageNum {
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+#pbody {
+   margin: 1px auto;
+   width: 1200px;
+}
+
+#fileImg {
+   width: 180px;
+   height: 200px;
+}
+
+.overflow1 {
+   text-overflow: ellipsis;
+}
+
+#pList1 {
+   float: left;
+}
+
+#pList1_click {
+   padding-left: 20px;
+   width: 450px;
+   font-weight: bold;
+}
+
+#wirteForm {
+   float: right;
+}
+
+#writeForm_click {
+   font-weight: bold;
+   margin-left : 750px;
+}
+
+#productUl {
+   width: 1200px;
+   margin: auto;
+}
+
+#pDiv {
+   width: 970px;
+   height: 600px;
+   margin: 1px auto;
+    margin-top : 100px; 
+}
+
+#psearch {
+   text-align: center;
+   margin: 20px;
+}
+
+#psearchForm {
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+   color: red;
+}
+
+/* 위에는 리스트, 디테일, 업데이트 공통 css*/
+#DetailForm {
+   width: 980px;
+   margin: 150px 10px 1px 10px;
+}
+
+#pH2 {
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 30px;
+}
+
+#detailT {
+   margin: 10px auto;
+}
+
+.top_photo {
+   width: 480px;
+}
+
+.top_detail {
+   width: 480px;
+   padding-bottom: 90px;
+}
+
+.bottom {
+   width: 445px;
+   height: 200px;
+   border: 1px dotted black;
+   text-align: center;
+}
+
+#main1 {
+   width: 400px;
+   margin-left: 25px;
+   height: 400px;
+}
+
+#left_arrow {
+   width: 45px;
+   height: 50px;
+   margin-bottom: 16px;
+   margin-left: 5px;
+}
+
+#photo1 {
+   width: 100px;
+   height: 100px;
+   margin-left: 5px;
+}
+
+#photo2 {
+   width: 100px;
+   height: 100px;
+   margin-left: 5px;
+}
+
+#right_arrow {
+   width: 45px;
+   height: 50px;
+   margin-bottom: 16px;
+   margin-left: 5px;
+}
+
+#btnSpan {
+   margin-left: 400px;
+}
+
+#file {
+   width: 180px;
+}
+
+#pfile {
+   width: 180px;
+}
+
+#replyT {
+   width: 970px;
+}
+
+.Th, .Td {
+   border: 1px solid black;
+}
+
+/*reply css*/
+#replyTable {
+   margin: 0px;
+   padding: 0px;
+   font-size: 12px;
+   width: 970px;
+   border-collapse: collapse;
+   border: 1px solid #EAEAEA;
+}
+
+#replyTitle {
+   clear: both;
+   height: 30px;
+   line-height: 30px;
+   background: #898989;
+   color: white;
+   border: 1px solid #898989;
+   text-align: center;
+}
+
+.replyUser {
+   float: left;
+   width: 800px;
+   height: 30px;
+   line-height: 30px;
+   padding-left: 10px;
+   text-align: left;
+   background: #EFEFEF;
+}
+
+.replyModify {
+   float: right;
+   width: 146px;
+   height: 30px;
+   line-height: 30px;
+   padding-right: 10px;
+   text-align: right;
+   background: #EFEFEF;
+}
+
+.replyContent {
+   clear: both;
+   line-height: 20px;
+   padding: 5px 10px 5px 10px;
+   /* line-height: 30px; */
+}
+
+#replyWrite {
+   float: right;
+}
+
+#replyWriteTable {
+   width: 100%;
+   height: 26px;
+   line-height: 26px;
+   border: 0px;
+   margin: 5px 0 5px 0;
+   font-size: 12px;
+}
+
+#replyWriteTitle {
+   background: #F7F7F7;
+   padding: 3px;
+   text-align: center;
+}
+
+#replyWriteContent {
+   width: 100%;
+   height: 100%;
+}
+
+#replyContent {
+   width: 100%;
+   padding: 0px;
+   word-break: break-all;
+}
+
+#replyWriteButton {
+   width: 85px;
+   height: 54px;
+   border: 0px;
+}
+
+#replyPt {
+   width: 10px;
+   height: 10px;
+}
+
+#write1 {
+   width: 18px;
+   height: 18px;
+   vertical-align: bottom;
+}
+
+#noReply {
+   text-align: center;
+}
+
+#errorpage {
+   width: 970px;
+   height: 600px;
+   margin: 1px auto;
+   margin-top: 150px;
+}
+
+#errorpage img {
+   border: none;
+}
+
+.updateForm {
+   margin-left: -230px;
+}
+
+#listForm {
+   width : 1000px; 
+   height: 1000px;
+   margin-top : 200px; 
+   
+}

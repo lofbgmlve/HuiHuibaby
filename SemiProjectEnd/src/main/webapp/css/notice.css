@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+/* 사이트 전체 적용 */
+.noticeTitle {
+	margin : auto;
+	font-size: 15px;
+	color: black; 
+	text-align : center;
+}
+.readTable{
+	
+	margin-left : 500px;
+	width : 1500px;
+}
+#noticeTitle{
+text-align : center;
+}
+#writeForm{
+	margin-top : 200px;
+}
